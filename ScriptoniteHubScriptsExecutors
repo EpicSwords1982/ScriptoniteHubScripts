@@ -105,11 +105,3 @@ Section3:NewButton("Discord", "ButtonInfo", function()
     game:GetService("StarterGui"):SetCore("SendNotification", { Title = "link copied!"; Text = "By Scriptonite Hub"; Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"}) Duration = 5;
 
 end)
-
-Section33:NewButton("BTool", "ButtonInfo", function()
-
-    loadstring(game:HttpGet(("https://hastepaste.com/raw/QvGs"), true))()
-
-    game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Script Executed"; Text = "Scriptonite Hub (BTool)"; Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"}) Duration = 5;
-
-end)
